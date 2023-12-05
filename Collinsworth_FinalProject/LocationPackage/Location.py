@@ -1,8 +1,12 @@
-'''
-Created on Dec 5, 2023
+#Name: Aditya Achar, Ben Castro, Cameron Vegh, Riley McCullough
+#email: mccullrw@mail.uc.edu, acharay@mail.uc.edu, castroba@mail.uc.edu
+#Assignment Title: Final Project
+#Course: IS 4010
+#Semester/Year: Spring 2023
+#Brief Description: This project demonstrates that decrypt a JSON file in multiple ways
+#Citations: next to code that citation used
+#Anything else that's relevant: Happy holidays
 
-@author: mccullrw
-'''
 import json
 
 def decrypt_collinsworth(json_file_path, txt_file_path):
@@ -25,7 +29,7 @@ def decrypt_collinsworth(json_file_path, txt_file_path):
 
     return decrypted_message
 
-def question2():   
+def location_print():   
     #stores key, json file, and txt file into variables used in functions
     json_file_path = 'EncryptedGroupHintsFall2023Section001.json'
     txt_file_path = 'english_2.txt'
