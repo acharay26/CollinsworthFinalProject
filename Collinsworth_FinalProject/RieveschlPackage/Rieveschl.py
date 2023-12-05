@@ -6,12 +6,9 @@
 #Brief Description: This project demonstrates that decrypt a JSON file in multiple ways
 #Citations: next to code that citation used
 #Anything else that's relevant: Happy holidays
+from PIL import Image
+import json
 
-from LocationPackage.Location import *
-from Castroba_Package.castroba import *
-from RieveschlPackage.Rieveschl import *
-
-if __name__ == "__main__":
-    location_print()
-    movie()
-    image()
+def image():
+    img = Image.open("rieveschl.jpg")
+    img.show()
